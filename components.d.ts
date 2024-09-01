@@ -15,6 +15,5 @@ declare module '@vue/runtime-core' {
     FlyHeader: typeof import('./src/components/fly-header/fly-header.vue')['default']
     FlyLogin: typeof import('./src/components/fly-login/fly-login.vue')['default']
     FlyNavbar: typeof import('./src/components/fly-navbar/fly-navbar.vue')['default']
-    SvgIcon: typeof import('./src/components/SvgIcon.vue')['default']
   }
 }

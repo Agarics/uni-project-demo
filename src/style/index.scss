@@ -1,11 +1,16 @@
-@import './iconfont.css';
+/* stylelint-disable-next-line selector-type-no-unknown */
+uni-page-body {
+  height: 100%;
+}
 
-.test {
-  // 可以通过 @apply 多个样式封装整体样式
-  @apply mt-4 ml-4;
+* {
+  box-sizing: border-box;
+}
 
-  padding-top: 4px;
-  color: red;
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: $uni-text-color;
 }
 
 .icon {
@@ -15,13 +20,3 @@
   vertical-align: -0.15em;
   fill: currentcolor;
 }
-
-// 全局字体引用 DEMO
-// @font-face {
-//   font-family: TiTi;
-//   src: url('./fonts/PangMenZhengDaoBiaoTiTi-1.ttf');
-// }
-
-// .titi {
-//   font-family: TiTi, Arial, sans-serif;
-// }

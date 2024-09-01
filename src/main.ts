@@ -4,7 +4,6 @@ import App from './App.vue'
 import store from './store'
 import { routeInterceptor, requestInterceptor } from './interceptors'
 import i18n from './locale/index'
-import 'virtual:svg-icons-register'
 import 'virtual:uno.css'
 import '@/style/index.scss'
 

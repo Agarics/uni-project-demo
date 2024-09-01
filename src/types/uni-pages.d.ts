@@ -5,15 +5,17 @@
 
 interface NavigateToOptions {
   url: "/pages/index/index" |
+       "/pages/category/index" |
        "/pages/demo/index" |
        "/pages/index/request" |
+       "/pages/interaction/index" |
        "/pages/login/index" |
        "/pages/my/index" |
+       "/pages/shop-card/index" |
        "/pages/demo/base/auto-import" |
        "/pages/demo/base/css" |
        "/pages/demo/base/enum" |
        "/pages/demo/base/env" |
-       "/pages/demo/base/iconfont" |
        "/pages/demo/base/mock" |
        "/pages/demo/base/mp-weixin-share" |
        "/pages/demo/base/navbar" |
@@ -22,7 +24,6 @@ interface NavigateToOptions {
        "/pages/demo/base/request" |
        "/pages/demo/base/request2" |
        "/pages/demo/base/route-interceptor" |
-       "/pages/demo/base/svg" |
        "/pages/demo/base/throughout" |
        "/pages/demo/base/uni-ui-icons" |
        "/pages/demo/base/uni-ui" |
@@ -53,7 +54,7 @@ interface NavigateToOptions {
 interface RedirectToOptions extends NavigateToOptions {}
 
 interface SwitchTabOptions {
-  url: "/pages/index/index" | "/pages/demo/index"
+  url: "/pages/index/index" | "/pages/category/index" | "/pages/interaction/index" | "/pages/shop-card/index" | "/pages/my/index"
 }
 
 type ReLaunchOptions = NavigateToOptions | SwitchTabOptions;

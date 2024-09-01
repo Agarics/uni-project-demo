@@ -33,9 +33,8 @@
 
       <button
         size="default"
-        type="default"
-        style="color: #fff; background-color: #1aad19; border-color: #1aad19"
-        class="text-center leading-12 w-40 my-4"
+        type="button"
+        class="text-center leading-12 w-40 my-4 after:content-none submit-btn"
         @click="onSubmit"
       >
         确定
@@ -115,6 +114,12 @@ const onSubmit = () => {
     background-color: #fff;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
+  }
+
+  .submit-btn {
+    color: #fff;
+    background: $uni-color-primary;
+    border-color: $uni-color-primary;
   }
 }
 </style>

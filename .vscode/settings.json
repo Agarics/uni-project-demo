@@ -58,6 +58,6 @@
     // "*.env": "$(capture).env.*",
     "CHANGELOG.md": "CHANGELOG*",
     "package.json": "pnpm-lock.yaml,pnpm-workspace.yaml,LICENSE,.gitattributes,.gitignore,.gitpod.yml,CNAME,.npmrc,.browserslistrc",
-    ".eslintrc.cjs": ".eslintignore,.prettierignore,.stylelintignore,.lintstagedrc.*,.commitlintrc.*,commitlint.*,.prettierrc.*,.stylelintrc.*,.eslintrc-auto-import.json,.editorconfig,.commitlint.cjs"
+    ".eslintrc.cjs": ".eslintignore,.prettierignore,.simple-git-hooks.*,.stylelintignore,.lintstagedrc.*,.commitlintrc.*,commitlint.*,.prettierrc.*,.stylelintrc.*,.eslintrc-auto-import.json,.editorconfig,.commitlint.cjs"
   }
 }
