@@ -1,6 +1,8 @@
 <template>
   <view class="default-layout" :style="{ paddingTop: safeAreaInsets?.top + 'px' }">
-    <slot />
+    <view class="min-h-full" :style="{ paddingBottom: '50px' }">
+      <slot />
+    </view>
     <wd-toast />
     <wd-message-box />
   </view>
